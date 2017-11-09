@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multi-lingual Webpage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-sm-6">
+            <div class="card hovercard">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                    <img alt="" src="./images/sagar.png">
+                </div>
+                <div class="info">
+                    <div  class="title">
+                        <span translate >name</span>
+                    </div>
+                    <div class="desc"> <span translate>dob</span></div>
+                    <div class="desc"> <span translate>studiedAt</span></div>
+                    <div class="desc"> <span translate>currentPosition</span> </div>
+                    <div class="desc"> <span translate>profession</span></div>
+                </div>
+                <div class="bottom">
+                    <select id ="languages" onchange="changeLng(this.value);">
+                      <option value='en'>English</option>
+                      <option value='pbi'>Punjabi</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    <!-- Including this file for translations. -->
+    <script src="https://unpkg.com/i18next/i18next.js"></script>
+    <!-- Custom js file for the logic of this webpage. -->
+    <script src="lib_i18n.js" ></script>
+    </body>
+</html>
