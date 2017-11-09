@@ -1,4 +1,5 @@
 # sb-dev-i18n
+[DONE]
 
 #Translating library for multi-lingual support.
 This project aims at providing a small library for translating strings in HTMl to the required language on the basis of the key.
